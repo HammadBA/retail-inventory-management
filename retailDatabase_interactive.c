@@ -126,6 +126,8 @@ int main()
         {
             printf("    -Please enter the name of the brand you want to list products for: ");
             fgets(company_name, MAX_STR_LEN, stdin);
+            company_name[strlen(company_name) - 1] = '\0';
+
             queryProductsBrand(company_name, Product_head);
         }
         else if (choice == 7)
