@@ -77,7 +77,7 @@ int main()
         printf("5 - Print out existing products.\n");
         printf("6 - Query products by brand.\n");
         printf("7 - Query products by minimum quantity.\n");
-        printf("8 - Delete list of reviews and exit.\n");
+        printf("8 - Delete list of products and exit.\n");
         scanf("%d", &choice);
         getchar();
 
